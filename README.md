@@ -2,7 +2,9 @@
 
 A full-stack Task Management application built using **React (Frontend)** and **Node.js + Express + MySQL (Backend)** with **JWT Authentication** and **CRUD functionality**.
 
----
+Live Project Link : https://task-app85.netlify.app/  
+
+--
 
 ## Features
 
