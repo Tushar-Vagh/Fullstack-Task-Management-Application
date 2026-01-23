@@ -1,0 +1,94 @@
+2026-01-22 21:19:58 [INFO] Starting backend application
+2026-01-22 21:19:58 [INFO] Environment: development
+2026-01-22 21:19:58 [INFO] Command executed: npm run dev
+
+2026-01-22 21:19:59 [INFO] Nodemon v3.1.11 initialized
+2026-01-22 21:19:59 [INFO] Watching extensions: js, mjs, cjs, json
+2026-01-22 21:19:59 [INFO] Watching paths: *.*
+
+2026-01-22 21:20:00 [INFO] Starting Node.js server
+2026-01-22 21:20:00 [WARN] Package.json missing "type": "module"
+2026-01-22 21:20:00 [WARN] Reparsing files as ES modules
+2026-01-22 21:20:00 [WARN] Performance overhead may occur
+
+2026-01-22 21:20:01 [INFO] Loading environment variables (.env)
+2026-01-22 21:20:01 [INFO] dotenv initialized successfully
+2026-01-22 21:20:01 [INFO] Server listening on port 5000
+
+2026-01-22 21:20:21 [ERROR] Database connection error
+2026-01-22 21:20:21 [ERROR] ER_ACCESS_DENIED_ERROR
+2026-01-22 21:20:21 [ERROR] Access denied for user 'root'@'localhost'
+2026-01-22 21:20:21 [INFO] Retrying database connection
+
+2026-01-22 21:21:04 [INFO] Server restarted (file changes detected)
+
+2026-01-22 21:21:05 [ERROR] Database error
+2026-01-22 21:21:05 [ERROR] ER_BAD_DB_ERROR
+2026-01-22 21:21:05 [ERROR] Unknown database 'task_app'
+2026-01-22 21:21:05 [INFO] Database needs to be created
+
+2026-01-22 21:21:46 [INFO] Server restarted after configuration update
+2026-01-22 21:21:47 [INFO] Server running on port 5000
+
+2026-01-22 21:22:10 [ERROR] SQL execution failed
+2026-01-22 21:22:10 [ERROR] ER_NO_SUCH_TABLE
+2026-01-22 21:22:10 [ERROR] Table 'task_app.users' does not exist
+2026-01-22 21:22:10 [INFO] Pending schema setup detected
+
+2026-01-22 21:23:02 [INFO] Restarting server (nodemon)
+2026-01-22 21:23:03 [INFO] Server started successfully
+
+2026-01-22 21:24:14 [ERROR] Module import failure
+2026-01-22 21:24:14 [ERROR] user.controller.js does not export 'getProfile'
+2026-01-22 21:24:14 [INFO] Controller exports mismatch
+
+2026-01-22 21:25:33 [ERROR] Module resolution failed
+2026-01-22 21:25:33 [ERROR] ERR_MODULE_NOT_FOUND: multer
+2026-01-22 21:25:33 [INFO] Installing missing dependency
+
+2026-01-22 21:26:05 [INFO] Dependency installed: multer
+2026-01-22 21:26:05 [INFO] Restarting backend service
+
+2026-01-22 21:26:06 [INFO] Server started on port 5000
+
+2026-01-22 21:27:19 [ERROR] ReferenceError detected
+2026-01-22 21:27:19 [ERROR] Cannot access 'router' before initialization
+2026-01-22 21:27:19 [INFO] Route declaration order issue
+
+2026-01-22 21:28:41 [ERROR] ReferenceError
+2026-01-22 21:28:41 [ERROR] updateProfilePicture is not defined
+2026-01-22 21:28:41 [INFO] Missing controller function
+
+2026-01-22 21:29:52 [INFO] Restarting server after code change
+2026-01-22 21:29:53 [INFO] Server running on port 5000
+
+2026-01-22 21:30:28 [ERROR] SyntaxError
+2026-01-22 21:30:28 [ERROR] auth.controller.js does not export 'login'
+2026-01-22 21:30:28 [INFO] Incorrect named export
+
+2026-01-22 21:31:47 [ERROR] ReferenceError
+2026-01-22 21:31:47 [ERROR] auth middleware is not defined
+2026-01-22 21:31:47 [INFO] Missing middleware import
+
+2026-01-22 21:32:58 [ERROR] ReferenceError
+2026-01-22 21:32:58 [ERROR] changePassword is not defined
+2026-01-22 21:32:58 [INFO] Controller function missing
+
+2026-01-22 21:34:10 [ERROR] SyntaxError
+2026-01-22 21:34:10 [ERROR] Invalid named export 'chan'
+2026-01-22 21:34:10 [INFO] Typographical error in import statement
+
+2026-01-22 21:35:44 [INFO] Restarting server
+2026-01-22 21:35:45 [INFO] dotenv environment loaded
+2026-01-22 21:35:45 [INFO] Server listening on port 5000
+
+2026-01-22 21:36:18 [WARN] Multiple restarts detected
+2026-01-22 21:36:18 [WARN] Application unstable during development
+
+2026-01-22 21:37:02 [INFO] Backend routes registered
+2026-01-22 21:37:02 [INFO] Authentication module loaded
+2026-01-22 21:37:02 [INFO] User module loaded
+
+2026-01-22 21:37:29 [INFO] Development debugging ongoing
+2026-01-22 21:37:29 [INFO] Errors documented for resolution
+2026-01-22 21:37:29 [INFO] Backend running in development mode
